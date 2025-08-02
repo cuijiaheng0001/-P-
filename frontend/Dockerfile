@@ -15,7 +15,7 @@ COPY . .
 RUN npm run build
 
 # 暴露端口
-EXPOSE 3000
+EXPOSE 3001
 
 # 启动命令
 CMD ["npm", "run", "dev"]

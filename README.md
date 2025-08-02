@@ -45,7 +45,7 @@ docker-compose up -d
 ```
 
 4. 访问应用
-- 前端界面: http://localhost:3000
+- 前端界面: http://localhost:3001
 - API 文档: http://localhost:8000/docs
 - Celery 监控: http://localhost:5555
 
