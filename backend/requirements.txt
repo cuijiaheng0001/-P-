@@ -1,0 +1,35 @@
+# FastAPI 核心
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.9
+
+# 图像处理
+pillow==10.4.0
+opencv-python==4.10.0.84
+numpy==1.26.4
+
+# AI 相关
+diffusers==0.30.0
+transformers==4.44.0
+accelerate==0.33.0
+safetensors==0.4.5
+omegaconf==2.3.0
+controlnet-aux==0.0.9
+
+# 数据库
+sqlalchemy==2.0.35
+alembic==1.13.2
+psycopg2-binary==2.9.9
+
+# 缓存和任务队列
+redis==5.0.8
+celery==5.4.0
+
+# 存储
+minio==7.2.8
+boto3==1.35.10
+
+# 工具
+python-dotenv==1.0.1
+pydantic==2.8.2
+pydantic-settings==2.4.0

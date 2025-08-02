@@ -1,0 +1,28 @@
+# Stable Diffusion 相关
+diffusers==0.30.0
+transformers==4.44.0
+accelerate==0.33.0
+safetensors==0.4.5
+omegaconf==2.3.0
+
+# ControlNet
+controlnet-aux==0.0.9
+
+# 图像处理
+opencv-python==4.10.0.84
+pillow==10.4.0
+numpy==1.26.4
+scikit-image==0.24.0
+
+# 人脸和身体检测
+mediapipe==0.10.14
+dlib==19.24.5
+
+# API 服务
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.9
+
+# 其他工具
+tqdm==4.66.5
+huggingface-hub==0.24.6
